@@ -720,18 +720,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OFVhZtupac3usXIFOrWX" name="03 [예제] 유스케이스 명세서">
-    <mxGraphModel dx="1434" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1949" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cgBnffwwz1y63k7dSofq-1" value="유스케이스명 : 회원가입&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;목표 : 비회원이 회원가입을 할 수 있도록 시스템을 통해 회원가입 절차를 완료한다&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;엑터 : 비회원&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;사전 조건 : 메인페이지 에서 회원가입 버튼을 클릭하여 회원가입 페이지로 이동한다&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;사후 처리 : 회원정상 가입 이후 로그인 페이지로 이동&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;기본흐름 :&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 비회원이 계정 입력란에 email 계정을 입력하고 인증 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;2 시스템은 해당 계정으로 인증코드를 전송한다&lt;/div&gt;&lt;div&gt;3 시스템은 비회원이 보는 페이지에 인증코드 확인폼을 활성화 한다&lt;/div&gt;&lt;div&gt;4 회원은 이메일 인증코드를 인증코드 확인폼에 입력한 뒤 인증확인 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;5 시스템은 인증확인 처리를 한뒤 인증확인 메시지를 전달한다&lt;/div&gt;&lt;div&gt;6 이름/연락처/주소/를 입력하고 회원가입 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;7 회원가입 처리 이후 메시지를 전달한다&lt;/div&gt;&lt;div&gt;8 회원이 메시지 확인 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;9 로그인 페이지로 이동한다&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;대안흐름 :&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;취소버튼를 입력하면 메인화면이로 이동&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;예외흐름 :&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1a 동일한 계정이 있는경우&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;시스템은 &#39;동일한 계정이 있습니다&#39; 라는 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1b 인증을 하지않고 회원가입을 하려는 경우&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;시스템은 &#39;인증이 되지 않았습니다&#39; 라는 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1c 인증코드 입력 누락시&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#39;인증처리를 위한 code를 입력하세요&#39; 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1d email형식에 맞지 않는 주소 입력&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#39;올바른 이메일 형식을 입력하세요&#39; 라는 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;6a 이름 누락시&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="cgBnffwwz1y63k7dSofq-1" value="유스케이스명 : 회원가입&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;목표 : 비회원이 회원가입을 할 수 있도록 시스템을 통해 회원가입 절차를 완료한다&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;엑터 : 비회원&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;사전 조건 : 메인페이지 에서 회원가입 버튼을 클릭하여 회원가입 페이지로 이동한다&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;사후 처리 : 회원정상 가입 이후 로그인 페이지로 이동&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;기본흐름 :&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 비회원이 계정 입력란에 email 계정을 입력하고 인증 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;2 시스템은 해당 계정으로 인증코드를 전송한다&lt;/div&gt;&lt;div&gt;3 시스템은 비회원이 보는 페이지에 인증코드 확인폼을 활성화 한다&lt;/div&gt;&lt;div&gt;4 회원은 이메일 인증코드를 인증코드 확인폼에 입력한 뒤 인증확인 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;5 시스템은 인증확인 처리를 한뒤 인증확인 메시지를 전달한다&lt;/div&gt;&lt;div&gt;6 비회원은&amp;nbsp; 이름/연락처/주소/를 입력하고 회원가입 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;7 시스템은 회원가입 처리 이후 메시지를 전달한다&lt;/div&gt;&lt;div&gt;8 비회원이 메시지 확인 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;9 시스템은 로그인 페이지로 이동한다&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;대안흐름 :&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;취소버튼를 입력하면 메인화면이로 이동&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;예외흐름 :&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1a 동일한 계정이 있는경우&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;시스템은 &#39;동일한 계정이 있습니다&#39; 라는 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1b 인증을 하지않고 회원가입을 하려는 경우&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;시스템은 &#39;인증이 되지 않았습니다&#39; 라는 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1c 인증코드 입력 누락시&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#39;인증처리를 위한 code를 입력하세요&#39; 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1d email형식에 맞지 않는 주소 입력&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#39;올바른 이메일 형식을 입력하세요&#39; 라는 메시지를 비회원에게 전달&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;6a 이름 누락시&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="30" y="-430" width="470" height="760" as="geometry" />
         </mxCell>
-        <mxCell id="cgBnffwwz1y63k7dSofq-14" value="유스케이스명 : 회원가입" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="-410" width="510" height="680" as="geometry" />
+        <mxCell id="cgBnffwwz1y63k7dSofq-14" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 회원가입" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="-430" width="510" height="690" as="geometry" />
         </mxCell>
         <mxCell id="cgBnffwwz1y63k7dSofq-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" parent="cgBnffwwz1y63k7dSofq-14" vertex="1">
-          <mxGeometry y="30" width="510" height="30" as="geometry" />
+          <mxGeometry y="40" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cgBnffwwz1y63k7dSofq-16" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="cgBnffwwz1y63k7dSofq-15" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
@@ -744,7 +744,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cgBnffwwz1y63k7dSofq-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="cgBnffwwz1y63k7dSofq-14" vertex="1">
-          <mxGeometry y="60" width="510" height="30" as="geometry" />
+          <mxGeometry y="70" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cgBnffwwz1y63k7dSofq-44" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="cgBnffwwz1y63k7dSofq-43" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
@@ -757,7 +757,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cgBnffwwz1y63k7dSofq-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="cgBnffwwz1y63k7dSofq-14" vertex="1">
-          <mxGeometry y="90" width="510" height="30" as="geometry" />
+          <mxGeometry y="100" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cgBnffwwz1y63k7dSofq-47" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="cgBnffwwz1y63k7dSofq-46" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
@@ -770,7 +770,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="554OEFwJq8ZsGmIAFbtf-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="cgBnffwwz1y63k7dSofq-14">
-          <mxGeometry y="120" width="510" height="30" as="geometry" />
+          <mxGeometry y="130" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="554OEFwJq8ZsGmIAFbtf-2" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="554OEFwJq8ZsGmIAFbtf-1">
           <mxGeometry width="60" height="30" as="geometry">
@@ -783,20 +783,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="554OEFwJq8ZsGmIAFbtf-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="cgBnffwwz1y63k7dSofq-14">
-          <mxGeometry y="150" width="510" height="170" as="geometry" />
+          <mxGeometry y="160" width="510" height="170" as="geometry" />
         </mxCell>
         <mxCell id="554OEFwJq8ZsGmIAFbtf-5" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="554OEFwJq8ZsGmIAFbtf-4">
           <mxGeometry width="60" height="170" as="geometry">
             <mxRectangle width="60" height="170" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="554OEFwJq8ZsGmIAFbtf-6" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;1 비회원이 계정 입력란에 email 계정을 입력하고 인증 버튼을 클릭한다&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;2 시스템은 해당 계정으로 인증코드를 전송한다&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3 시스템은 비회원이 보는 페이지에 인증코드 확인폼을 활성화 한다&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;4 회원은 이메일 인증코드를 인증코드 확인폼에 입력한 뒤 인증확인 버튼을 클릭한다&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;5 시스템은 인증확인 처리를 한뒤 인증확인 메시지를 전달한다&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;6 이름/연락처/주소/를 입력하고 회원가입 버튼을 클릭한다&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;7 회원가입 처리 이후 메시지를 전달한다&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;8 회원이 메시지 확인 버튼을 클릭한다&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;9 로그인 페이지로 이동한다&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="554OEFwJq8ZsGmIAFbtf-4">
+        <mxCell id="554OEFwJq8ZsGmIAFbtf-6" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;1 비회원이 계정 입력란에 email 계정을 입력하고 인증 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;2 시스템은 해당 계정으로 인증코드를 전송한다&lt;/div&gt;&lt;div&gt;3 시스템은 비회원이 보는 페이지에 인증코드 확인폼을 활성화 한다&lt;/div&gt;&lt;div&gt;4 회원은 이메일 인증코드를 인증코드 확인폼에 입력한 뒤 인증확인 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;5 시스템은 인증확인 처리를 한뒤 인증확인 메시지를 전달한다&lt;/div&gt;&lt;div&gt;6 비회원은&amp;nbsp; 이름/연락처/주소/를 입력하고 회원가입 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;7 시스템은 회원가입 처리 이후 메시지를 전달한다&lt;/div&gt;&lt;div&gt;8 비회원이 메시지 확인 버튼을 클릭한다&lt;/div&gt;&lt;div&gt;9 시스템은 로그인 페이지로 이동한다&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="554OEFwJq8ZsGmIAFbtf-4">
           <mxGeometry x="60" width="450" height="170" as="geometry">
             <mxRectangle width="450" height="170" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="554OEFwJq8ZsGmIAFbtf-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="cgBnffwwz1y63k7dSofq-14">
-          <mxGeometry y="320" width="510" height="130" as="geometry" />
+          <mxGeometry y="330" width="510" height="130" as="geometry" />
         </mxCell>
         <mxCell id="554OEFwJq8ZsGmIAFbtf-8" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="554OEFwJq8ZsGmIAFbtf-7">
           <mxGeometry width="60" height="130" as="geometry">
@@ -809,7 +809,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="554OEFwJq8ZsGmIAFbtf-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="cgBnffwwz1y63k7dSofq-14">
-          <mxGeometry y="450" width="510" height="230" as="geometry" />
+          <mxGeometry y="460" width="510" height="230" as="geometry" />
         </mxCell>
         <mxCell id="554OEFwJq8ZsGmIAFbtf-11" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="554OEFwJq8ZsGmIAFbtf-10">
           <mxGeometry width="60" height="230" as="geometry">
